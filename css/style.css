@@ -17,3 +17,40 @@ a:hover {text-decoration: none}
 
 .big{font-size:13px; line-height:20px; color:#333; font-weight:bold; padding-left:15px;}
 .small{font-size:12px; line-height:16px; color:#666; padding-left:20px;}
+
+.links,.links a {
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    padding: 0px 6px;
+  }
+
+
+  .links a:link {
+    color: white;
+  }
+
+  /* 未访问链接*/
+  .links  a:visited {
+    color: white;
+  }
+
+  /* 已访问链接 */
+  .links a:hover {
+    color: white;
+  }
+
+  /* 鼠标移动到链接上 */
+  .links a:active {
+    color: white;
+  }
+
+  .left-category {
+    background-image: url('../images/imges_08.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 420px;
+    max-height: 420px;
+}
+
+ 
